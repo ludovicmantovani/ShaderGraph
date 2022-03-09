@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7998555856740450721
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_04_WaterUpgrade
-  m_Shader: {fileID: -6465566751694194690, guid: 166b40ad05e597943ae399d3853ed2fe, type: 3}
+  m_Name: Shader Graphs_04_WaterUpgrade2
+  m_Shader: {fileID: -6465566751694194690, guid: 7e9601f42b0ef0d4b85f3256c2883ca1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -54,26 +67,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 0.5
-    - _Amplitude: -0.06
-    - _Frequence: 14.92
-    - _NormalStreight: 0
+    - _Amplitude: 0.1
+    - _Frequence: 10
+    - _NormalStreight: 2.82
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0.115
-    - _WaveSpeed: -5.27
+    - _Speed: 0.656
+    - _WaveSpeed: -0.656
     m_Colors:
-    - _Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tilling: {r: 5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7677567015633707549
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5

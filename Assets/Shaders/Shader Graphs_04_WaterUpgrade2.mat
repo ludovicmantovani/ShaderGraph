@@ -66,14 +66,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.5
-    - _Amplitude: 0.1
+    - _Alpha: 1
+    - _Amplitude: -0.19
     - _Frequence: 10
-    - _NormalStreight: 2.82
+    - _NormalStreight: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0.656
-    - _WaveSpeed: -0.656
+    - _Speed: 0
+    - _WaveSpeed: -9.36
     m_Colors:
-    - _Tilling: {r: 5, g: 5, b: 0, a: 0}
+    - _Center: {r: 0, g: 0, b: 0, a: 0}
+    - _Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

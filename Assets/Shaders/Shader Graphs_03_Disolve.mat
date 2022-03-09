@@ -67,7 +67,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _DisolveFactor: 0
-    - _DissolveAmount: 0.315
+    - _DissolveAmount: 0.45
     - _DissolveDistance: 0.109
     - _DissolveFactor: 0.498
     - _QueueControl: 0

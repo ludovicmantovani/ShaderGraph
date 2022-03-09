@@ -67,14 +67,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 1
-    - _Amplitude: -0.19
-    - _Frequence: 10
+    - _Amplitude: 0.025
+    - _Att_nuation: 0.739
+    - _Frequence: 33.81
     - _NormalStreight: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: 0
-    - _WaveSpeed: -9.36
+    - _WaveSpeed: -5
     m_Colors:
     - _Center: {r: 0, g: 0, b: 0, a: 0}
-    - _Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tilling: {r: 5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
